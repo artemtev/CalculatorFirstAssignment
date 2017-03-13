@@ -157,6 +157,7 @@ class CalculatorBrain {
     func undoLast() {
         guard !internalProgram.isEmpty else {
             clear()
+            
             return
         }
         
